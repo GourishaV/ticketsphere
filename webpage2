@@ -1,0 +1,104 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .image {
+                float: left;
+                margin-right: 10px;
+            }
+            .search-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin-top: 20px;  
+        }
+        .search-input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-left : 40px;
+            outline: none;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #FF6969;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FF6969;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;            
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;            
+        }
+        li a:hover:not(.active) {
+            background-color: #FF6969;
+        }            
+        .active {
+            background-color: #FF6969;
+        }
+
+        .button {
+            background-color: #FF6969;
+            color: #FFF5E0;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body style="background-color:FFF5E0">
+        <div style = "background-color:#141e46 ; height: 100px; margin: 0; padding-left: 20px;" class="search-container">
+            <img src ="crop cover.png" width="130" height="50">
+            <input type="text" class="search-input" placeholder="You can search for movies,genres,etc">
+            <button class="search-button">Search</button>
+        </div>
+
+            <ul>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="ticketsphere_login.html">Home</a></li>
+                <li><a href="#tickets">Your Tickets</a></li>
+                <li style="float:right"><a class="active" href="#exit">Exit</a></li>
+              </ul>     
+        <br>
+        <div style="background-image: linear-gradient(90deg,#1A1A1A 24.97%,#1A1A1A 38.3%,rgba(26, 26, 26, 0.0409746) 97.47%,#1A1A1A 100%), url(https://www.bollywoodhungama.com/wp-content/uploads/2016/04/Padmavati.jpg); height: 450px; width: 1450px">
+            <img src="https://images.inuth.com/2017/09/1Ranveer-Singh-reeks-of-authority-in-this-new-poster-from-Padmavati.jpg" width="300" height="300" margin="50px" alt="Your Image" class="image">
+        <br><h1 style = "color:FFF5E0">Padmavat</h1>
+        <h2 style = "color:FFF5E0">IMBD Rating : 7/10</h2></br></br>
+        <p2 style = "color:FFF5E0"> 2D   3D   IMAX3D</p2></br></br>
+        <p3 style = "color:FFF5E0"> 3hrs • History • U/A • 1st December,2023 </p3> <br><br><br><br><br><br>
+        <button  class="button" onclick="location.href='theater.html'">BOOK TICKETS</button>
+        </div>
+        
+        </br><h2>About the movie</h2>
+        <p> "Padmavat" is an epic historical drama film directed by Sanjay Leela Bhansali, known for its grand visuals and controversy surrounding its release, based on the epic poem "Padmavat" by Malik Muhammad Jayasi. </p>
+        <hr>
+        <h2> Star Cast </h2>
+        <p> Deepika Padukone </p>
+        <p> Ranveer Singh </p>
+        <p> Shahid Kapoor </p>
+    
+    </body>
+</html>
