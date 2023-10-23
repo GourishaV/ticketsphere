@@ -1,0 +1,241 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .main{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-size: cover;
+                background-position: center;
+                background-color: black;
+            }
+            img.rounded-corners {
+                border-radius: 30px;
+            }
+            h2 {
+                text-align: center;
+                color: #141e46;
+            }
+            .search-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            margin-top: 20px;  
+        }
+        .search-input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-left : 40px;
+            outline: none;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #FF6969;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FF6969;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;            
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;            
+        }
+        li a:hover:not(.active) {
+            background-color: #FF6969;
+        }            
+        .active {
+            background-color: #FF6969;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button {
+            background-color: #FF6969;
+            color: #FFF5E0;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            height: 350px;
+        }
+
+        .container img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+        </style>
+    </head>
+
+    <body style="background-color:FFF5E0">
+        <div style = "background-color:#141e46 ; height: 100px; margin: 0; padding-left: 20px;" class="search-container">
+            <img src ="crop cover.png" width="130" height="50" >
+            <input type="text" class="search-input" placeholder="Search for movies,genres,etc">
+            <button class="search-button">Search</button>
+        </div>
+
+            <ul>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="ticketsphere_login.html">Home</a></li>
+                <li><a href="#tickets">Your Tickets</a></li>
+                <li style="float:right"><a class="active" href="#exit">Exit</a></li>
+              </ul>     
+        <br>
+        <div class="main">
+            <img src = "coming soon.png" alt="Image 2" class="rounded-corners" style="width: 70%; max-height: 480px;">
+        </div>
+        <br>
+        <div class="banner" style="text-align: center;">
+            <img src="https://ozvid.com/file/files/Ticket-Booking-App-CTA.png" alt="banner" width="850" height="140" class="rounded-corners">
+        </div>
+        <br>
+        <h2>HISTORIC MOVIES</h2>
+        <div class="container">
+            <div style="width: 25%; text-align: center;"><a href="http://127.0.0.1:5500/ticketsphere.html"><img
+                        src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-390/et00046516-bxlpxeyhud-portrait.jpg"
+                        width="250" height="300" class="rounded-corners" ></a>
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">PADMAAVAT</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">War • Romance • History</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00354867-mnqhqzyexs-portrait.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">SUBEDHAR</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Marathi • Skillship • Warfare</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00370554-tkuflzzcwu-portrait.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">JOURNEY TO BETHLEHEM</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Comedy • Romance</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00347867-rruvehxwpe-portrait.jpg"  width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">OPPENHEIMER</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Bomb • Physics • English</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>ROMANCE MOVIES</h2>
+        <div class="container">
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/jab-we-met-et00000182-1681714389.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">JAB WE MET</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Comedy • Romance • OG</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Om_Shanti_Om.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">OM SHANTI OM</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Action • Romance</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00312549-bqqygwhglt-portrait.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">ROCKY AUR RANI</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Relationhips • Arguments</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00338378-qyrlmhwdmg-portrait.jpg"  width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">SATYAPREM KI KATHA</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Self-Harm • Comedy • Romance</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="banner"; style="text-align: center;">
+            <img src="https://images.freekaamaal.com/post_images/1574921661.png" alt="banner" width= "850" height="140" class="rounded-corners">
+        </div>
+        <br>
+        <br>
+        <br>
+        <h2>COMEDY MOVIES</h2>
+        <div class="container">
+            <div style="width: 25%; text-align: center;"><img src="https://assets.gadgets360cdn.com/pricee/assets/product/202304/Zindagi-Na-Milegi-Dobara_1681473775.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">ZINDEGI NA MILEGI DOBARA</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Comedy • Life • Romance</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://image.songsuno.com/movie-images/original/movie/dil-chahta-hai/dil-chahta-hai-poster-preity-zinta-aamir-khan-saif-ali-khan-akshaye-khanna-sonali-kulkarni.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">DIL CHAHTA HAI</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Songs • Life • Friendship</p>
+                </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-wolf-of-wall-street-et00015953-25-09-2017-01-06-47.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">THE WOLF OF THE WALLSTREET</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Comedy • R-Rated • Language</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/tu-jhoothi-main-makkaar-et00347237-1675065103.jpg"  width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">TU JHOOTHI MAI MAKKAR</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Language • Comedy • Roamnce</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>POLITICALLY ACLAIMED MOVIES</h2>
+        <div class="container">
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ib71-et00312966-1683884508.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">IB71</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Action • Real-life Story</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://webneel.com/daily/sites/default/files/images/daily/08-2018/6-india-movie-poster-designs-talvar.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">TALVAR</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Serious • Politically Aclaimed</p>
+            </div>
+            <div style="width: 25%; text-align: center;"><img src="https://in.bmscdn.com/events/moviecard/ET00343918.jpg" width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">THE KERALA STORY</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Politics • Real-life Story</p>
+                </div>
+            <div style="width: 25%; text-align: center;"><img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-kashmir-files-et00110845-24-02-2022-03-28-20.jpg"  width="250" height="300" class="rounded-corners">
+                <h3 style="margin:2%; padding-right:5%; color:#141e46">THE KASHMIR FILES</h3>
+                <p style="margin:2%; padding-left:0%; color:#141e46">Rage • Controversial</p>
+                </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <img src="cover.png" alt="Centered Image" width="500" height="170">
+            <p>YOUR ONE WAY TICKET TO ENTERTAINMENT</p>
+        </div>
+    </body>
+</html>
